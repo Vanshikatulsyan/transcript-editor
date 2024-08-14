@@ -1,0 +1,61 @@
+.text-reader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.text-content {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.play-button {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2e0739e1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-button:disabled {
+  background-color: #370553a8;
+  cursor: not-allowed;
+}
+
+.add-word {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.new-word-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-word-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b1070b7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
